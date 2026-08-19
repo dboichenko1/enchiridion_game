@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/enchiridion_game/sw.js', { scope: '/enchiridion_game/' })})}
